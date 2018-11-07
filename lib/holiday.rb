@@ -69,6 +69,7 @@ def all_holidays_with_bbq(holiday_hash)
   array = []
   holiday_hash.each do |season, data|
     data.each do |supply|
+      binding.pry
       if supply == "BBQ"
         array << "I LOVE BBQ"
       end
